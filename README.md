@@ -1,79 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Focus-Time App
 
-# Getting Started
+Focus-Time is a React Native application that helps you stay productive by focusing on tasks for set intervals of time. You can enter a task name and choose from three different time options: 10 minutes, 15 minutes, and 20 minutes. The app allows you to start, pause, and resume the timer. Once the time is up, it vibrates and returns to the home screen, where you can see the tasks you've focused on.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- Add a task name and select a focus time
+- Timer options: 10 minutes, 15 minutes, 20 minutes
+- Start, pause, and resume the timer
+- Vibration notification when the timer ends
+- Task history displayed on the home screen
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Installation
 
-To start Metro, run the following command from the _root_ of your React Native project:
+1. Clone the repository:
 
-```bash
-# using npm
-npm start
+   ```bash
+   git clone https://github.com/Gaganraj2002/Focus-Time-app-ReactNative.git
+   ```
 
-# OR using Yarn
-yarn start
-```
+2. Navigate to the project directory:
 
-## Step 2: Start your Application
+   ```bash
+   cd Focus-Time-app-ReactNative
+   ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+3. Install the dependencies:
 
-### For Android
+   ```bash
+   npm install
+   ```
 
-```bash
-# using npm
-npm run android
+## Running the App
 
-# OR using Yarn
-yarn android
-```
+1. Start the Metro Bundler:
 
-### For iOS
+   ```bash
+   npx react-native start
+   ```
 
-```bash
-# using npm
-npm run ios
+2. Run the application on an Android or iOS device/emulator:
 
-# OR using Yarn
-yarn ios
-```
+   ```bash
+   npx react-native run-android
+   ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+   or
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+   ```bash
+   npx react-native run-ios
+   ```
 
-## Step 3: Modifying your App
+## Updating the App
 
-Now that you have successfully run the app, let's modify it.
+To update the app dependencies and ensure everything is up to date:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+1. Navigate to the project directory:
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+   ```bash
+   cd Focus-Time-app-ReactNative
+   ```
 
-## Congratulations! :tada:
+2. Update the dependencies:
 
-You've successfully run and modified your React Native App. :partying_face:
+   ```bash
+   npm update
+   ```
 
-### Now what?
+## Acknowledgments
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+This application was developed as part of the React Native course from [Zero to Mastery Academy](https://zerotomastery.io/).
 
-# Troubleshooting
+## License
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
