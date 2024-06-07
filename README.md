@@ -70,8 +70,4 @@ To update the app dependencies and ensure everything is up to date:
 
 This application was developed as part of the React Native course from [Zero to Mastery Academy](https://zerotomastery.io/).
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
